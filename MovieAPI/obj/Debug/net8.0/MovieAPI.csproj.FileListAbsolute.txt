@@ -142,3 +142,4 @@ C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\refint\MovieAPI.d
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.pdb
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.genruntimeconfig.cache
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\ref\MovieAPI.dll
+C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.sourcelink.json

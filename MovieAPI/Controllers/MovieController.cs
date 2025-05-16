@@ -27,9 +27,24 @@ namespace MovieAPI.Controllers
             {
                 var movieCount = await _context.Movies.CountAsync();
                 var movieList = await _context.Movies.Include(a => a.Actors)
-            .Skip(pageIndex * pageSize)
-            .Take(pageSize)
-            .ToListAsync();
+                .Skip(pageIndex * pageSize)
+                .Take(pageSize).Select(x=> new MovieListViewModel
+                {
+                    Id = x.Id,
+                    Title = x.Title,
+                    Actors = x.Actors.Select(y => new ActorViewModel
+                    {
+                        Id = y.Id,
+                        Name = y.Name,
+                        DateOfBirth = y.DateOfBirth
+
+                    }).ToList(),
+                    Language = x.Language,
+                    ReleaseDate = x.ReleaseDate,
+                    CoverImage = x.CoverImage,
+
+                })
+                .ToListAsync();
                 response.Status = true;
                 response.Message = "Success";
                 response.Data = new {Movies = movieList, Count = movieCount};
@@ -51,7 +66,25 @@ namespace MovieAPI.Controllers
             BaseResponseModel response = new BaseResponseModel();
             try
             {
-                var movie = await _context.Movies.Include(a => a.Actors).FirstOrDefaultAsync(m => m.Id == id);
+                var movie = await _context.Movies.Include(a => a.Actors).Where(m => m.Id == id)
+                    .Select(x => new MovieDetailsViewModel
+                    {
+                        Id = x.Id,
+                        Title = x.Title,
+                        Description = x.Description,
+                        Actors = x.Actors.Select(y => new ActorViewModel
+                        {
+                            Id = y.Id,
+                            Name = y.Name,
+                            DateOfBirth = y.DateOfBirth,
+                        }).ToList(),
+                        Language = x.Language,
+                        ReleaseDate = x.ReleaseDate,
+                        CoverImage = x.CoverImage
+                        
+
+                    })
+                    .FirstOrDefaultAsync();
                 if (movie is null)
                 {
                     response.Status = false;
@@ -166,6 +199,8 @@ namespace MovieAPI.Controllers
                         movieDetails.Actors.Remove(actor);
 
                     }
+                    //find added actors
+
                     var addedActors = actors.Except(movieDetails.Actors).ToList();
                     foreach (var actor in addedActors)
                     {
@@ -197,6 +232,22 @@ namespace MovieAPI.Controllers
             }
 
         }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteMovie(int id)
+        {
+            var selectedMovie = await _context.Movies.FindAsync(id);
+
+            if (selectedMovie == null)
+            {
+                return NotFound(); 
+            }
+
+            _context.Movies.Remove(selectedMovie);
+            await _context.SaveChangesAsync();
+
+            return Ok(selectedMovie); 
+        }
+
     }
 }
 
