@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using MovieAPI.Data;
 using MovieAPI.Models;
 using MovieAPI.NewFolder;
+using System.Net.Http.Headers;
 
 namespace MovieAPI.Controllers
 {
@@ -219,6 +220,44 @@ namespace MovieAPI.Controllers
             await _context.SaveChangesAsync();
 
             return Ok(selectedMovie); 
+        }
+        [HttpPost]
+        [Route("upload-movie-pster")]
+        public async Task<IActionResult>UploadMoviePoster(IFormFile imageFile)
+        {
+            try
+            {
+                 var fileName = ContentDispositionHeaderValue.Parse(imageFile.ContentDisposition).FileName.TrimStart('\"').TrimEnd('\"');
+                string newPath = @"C:\Users\adiar\source\repos\toDelete";
+                if (!Directory.Exists(newPath))
+                {
+                    Directory.CreateDirectory(newPath);
+                }
+                string[] allowedImageExtensions = new string[] {".jpg",".jpeg", ".png" };
+                if (!allowedImageExtensions.Contains(Path.GetExtension(fileName)))
+                {
+                    return BadRequest(new BaseResponseModel
+                    {
+                        Status = false,
+                        Message = "Fail formatted data"
+
+                    });
+                }
+                string newFileName = Guid.NewGuid() + Path.GetExtension(fileName);
+                string fullFilePath = Path.Combine(newPath, newFileName);
+                using (var stream =new FileStream(fullFilePath, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
+                     
+
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+
         }
 
     }

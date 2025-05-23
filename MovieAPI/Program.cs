@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 using MovieAPI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -25,7 +26,13 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseRouting();
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(@"C:\Users\adiar\source\repos\toDelete"),
+    RequestPath = "/StaticFiles"
 
+});
 app.UseAuthorization();
 
 app.MapControllers();

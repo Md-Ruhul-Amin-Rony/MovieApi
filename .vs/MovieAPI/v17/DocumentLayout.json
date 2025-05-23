@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\newfolder\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\newfolder\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\controllers\\personscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\personscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\data\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\data\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\models\\actordetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\actordetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\models\\actorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,8 +31,28 @@
       "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\actorsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\data\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\data\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\models\\createmovieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\createmovieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\models\\movielistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\movielistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\movieapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\movieapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\models\\actordetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\actordetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -39,28 +63,12 @@
       "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\models\\movielistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\movielistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\models\\moviedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\moviedetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\newfolder\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\newfolder\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\models\\baseresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\baseresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|c:\\users\\adiar\\source\\repos\\movieapi\\movieapi\\models\\createmovieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EF8FEBF-11D1-4BC5-A3C9-1CC406B130BE}|MovieAPI\\MovieAPI.csproj|solutionrelative:movieapi\\models\\createmovieviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,26 +90,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MovieController.cs",
               "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Controllers\\MovieController.cs",
               "RelativeDocumentMoniker": "MovieAPI\\Controllers\\MovieController.cs",
               "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Controllers\\MovieController.cs",
               "RelativeToolTip": "MovieAPI\\Controllers\\MovieController.cs",
-              "ViewState": "AQIAAM8AAAAAAAAAAAAAAOgAAAAAAAAA",
+              "ViewState": "AQIAANMAAAAAAAAAAAAAAPkAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-30T12:00:02.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PersonsController.cs",
               "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Controllers\\PersonsController.cs",
               "RelativeDocumentMoniker": "MovieAPI\\Controllers\\PersonsController.cs",
               "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Controllers\\PersonsController.cs",
               "RelativeToolTip": "MovieAPI\\Controllers\\PersonsController.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGcAAAAhAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T06:23:24.208Z",
               "EditorCaption": ""
@@ -109,19 +117,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ActorsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\ActorsViewModel.cs",
-              "RelativeDocumentMoniker": "MovieAPI\\Models\\ActorsViewModel.cs",
-              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\ActorsViewModel.cs",
-              "RelativeToolTip": "MovieAPI\\Models\\ActorsViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T06:31:30.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "ActorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\ActorViewModel.cs",
               "RelativeDocumentMoniker": "MovieAPI\\Models\\ActorViewModel.cs",
@@ -134,12 +129,116 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "ActorsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\ActorsViewModel.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\ActorsViewModel.cs",
+              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\ActorsViewModel.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\ActorsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T06:31:30.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateMovieViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\CreateMovieViewModel.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\CreateMovieViewModel.cs",
+              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\CreateMovieViewModel.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\CreateMovieViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T07:45:41.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Program.cs",
+              "RelativeToolTip": "MovieAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T07:14:03.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Entities\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Entities\\Movie.cs",
+              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Entities\\Movie.cs",
+              "RelativeToolTip": "MovieAPI\\Entities\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T06:47:40.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MovieDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Data\\MovieDbContext.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Data\\MovieDbContext.cs",
+              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Data\\MovieDbContext.cs",
+              "RelativeToolTip": "MovieAPI\\Data\\MovieDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T07:59:40.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\MappingProfiles.cs",
+              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\MappingProfiles.cs",
+              "RelativeToolTip": "MovieAPI\\MappingProfiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T09:28:16.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MovieListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\MovieListViewModel.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Models\\MovieListViewModel.cs",
+              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\MovieListViewModel.cs",
+              "RelativeToolTip": "MovieAPI\\Models\\MovieListViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T07:45:27.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MovieAPI",
+              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\MovieAPI.csproj",
+              "RelativeDocumentMoniker": "MovieAPI\\MovieAPI.csproj",
+              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\MovieAPI.csproj",
+              "RelativeToolTip": "MovieAPI\\MovieAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-16T14:34:53.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\NewFolder\\Person.cs",
-              "RelativeDocumentMoniker": "MovieAPI\\NewFolder\\Person.cs",
-              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\NewFolder\\Person.cs",
-              "RelativeToolTip": "MovieAPI\\NewFolder\\Person.cs",
+              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Entities\\Person.cs",
+              "RelativeDocumentMoniker": "MovieAPI\\Entities\\Person.cs",
+              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Entities\\Person.cs",
+              "RelativeToolTip": "MovieAPI\\Entities\\Person.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T06:25:22.027Z",
@@ -147,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "ActorDetailsModel.cs",
               "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\ActorDetailsModel.cs",
               "RelativeDocumentMoniker": "MovieAPI\\Models\\ActorDetailsModel.cs",
@@ -160,44 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MovieDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Data\\MovieDbContext.cs",
-              "RelativeDocumentMoniker": "MovieAPI\\Data\\MovieDbContext.cs",
-              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Data\\MovieDbContext.cs",
-              "RelativeToolTip": "MovieAPI\\Data\\MovieDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T07:59:40.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\NewFolder\\Movie.cs",
-              "RelativeDocumentMoniker": "MovieAPI\\NewFolder\\Movie.cs",
-              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\NewFolder\\Movie.cs",
-              "RelativeToolTip": "MovieAPI\\NewFolder\\Movie.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T06:47:40.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MovieListViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\MovieListViewModel.cs",
-              "RelativeDocumentMoniker": "MovieAPI\\Models\\MovieListViewModel.cs",
-              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\MovieListViewModel.cs",
-              "RelativeToolTip": "MovieAPI\\Models\\MovieListViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T07:45:27.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "MovieDetailsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\MovieDetailsViewModel.cs",
               "RelativeDocumentMoniker": "MovieAPI\\Models\\MovieDetailsViewModel.cs",
@@ -205,11 +267,12 @@
               "RelativeToolTip": "MovieAPI\\Models\\MovieDetailsViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T07:50:34.37Z"
+              "WhenOpened": "2025-05-02T07:50:34.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\appsettings.json",
               "RelativeDocumentMoniker": "MovieAPI\\appsettings.json",
@@ -217,11 +280,12 @@
               "RelativeToolTip": "MovieAPI\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-06T21:20:03.413Z"
+              "WhenOpened": "2025-05-06T21:20:03.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MovieAPI\\Properties\\launchSettings.json",
@@ -229,11 +293,12 @@
               "RelativeToolTip": "MovieAPI\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-06T21:20:12.545Z"
+              "WhenOpened": "2025-05-06T21:20:12.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "BaseResponseModel.cs",
               "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\BaseResponseModel.cs",
               "RelativeDocumentMoniker": "MovieAPI\\Models\\BaseResponseModel.cs",
@@ -241,31 +306,8 @@
               "RelativeToolTip": "MovieAPI\\Models\\BaseResponseModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T07:54:56.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CreateMovieViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\CreateMovieViewModel.cs",
-              "RelativeDocumentMoniker": "MovieAPI\\Models\\CreateMovieViewModel.cs",
-              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Models\\CreateMovieViewModel.cs",
-              "RelativeToolTip": "MovieAPI\\Models\\CreateMovieViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T07:45:41.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Program.cs",
-              "RelativeDocumentMoniker": "MovieAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\Program.cs",
-              "RelativeToolTip": "MovieAPI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T07:14:03.036Z"
+              "WhenOpened": "2025-05-02T07:54:56.368Z",
+              "EditorCaption": ""
             }
           ]
         }
