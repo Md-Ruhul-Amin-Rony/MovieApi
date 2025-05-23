@@ -1,3 +1,11 @@
+C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.csproj.AssemblyReference.cache
+C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.AssemblyInfoInputs.cache
+C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.AssemblyInfo.cs
+C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.csproj.CoreCompileInputs.cache
+C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.sourcelink.json
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\bin\Debug\net8.0\appsettings.json
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\bin\Debug\net8.0\MovieAPI.exe
@@ -5,6 +13,7 @@ C:\Users\adiar\source\repos\MovieAPI\MovieAPI\bin\Debug\net8.0\MovieAPI.deps.jso
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\bin\Debug\net8.0\MovieAPI.runtimeconfig.json
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\bin\Debug\net8.0\MovieAPI.dll
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\bin\Debug\net8.0\MovieAPI.pdb
+C:\Users\adiar\source\repos\MovieAPI\MovieAPI\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\bin\Debug\net8.0\Humanizer.dll
@@ -121,13 +130,6 @@ C:\Users\adiar\source\repos\MovieAPI\MovieAPI\bin\Debug\net8.0\runtimes\win\lib\
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.csproj.AssemblyReference.cache
-C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.AssemblyInfoInputs.cache
-C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.AssemblyInfo.cs
-C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.csproj.CoreCompileInputs.cache
-C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\staticwebassets\msbuild.MovieAPI.Microsoft.AspNetCore.StaticWebAssets.props
@@ -142,4 +144,3 @@ C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\refint\MovieAPI.d
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.pdb
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.genruntimeconfig.cache
 C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\ref\MovieAPI.dll
-C:\Users\adiar\source\repos\MovieAPI\MovieAPI\obj\Debug\net8.0\MovieAPI.sourcelink.json

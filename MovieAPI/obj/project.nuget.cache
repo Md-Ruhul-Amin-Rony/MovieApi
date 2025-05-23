@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HcbDEQ3DhbY=",
+  "dgSpecHash": "kd1jlOK3FnQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\adiar\\source\\repos\\MovieAPI\\MovieAPI\\MovieAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\adiar\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\adiar\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\adiar\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\adiar\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

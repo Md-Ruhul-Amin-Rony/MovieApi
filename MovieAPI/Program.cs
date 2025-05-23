@@ -12,6 +12,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<MovieDbContext>(options => options
 .UseSqlServer(builder.Configuration
 .GetConnectionString("DefaultConnection")));
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 
 var app = builder.Build();
 

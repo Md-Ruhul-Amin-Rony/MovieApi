@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MovieAPI.Data;
@@ -13,9 +14,13 @@ namespace MovieAPI.Controllers
     {
        
         private readonly MovieDbContext _context;
-        public MovieController(MovieDbContext context)
+
+        private readonly IMapper _mapper;
+
+        public MovieController(MovieDbContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         [HttpGet]
@@ -26,25 +31,11 @@ namespace MovieAPI.Controllers
             try
             {
                 var movieCount = await _context.Movies.CountAsync();
-                var movieList = await _context.Movies.Include(a => a.Actors)
+                var movieList = _mapper.Map<List<MovieListViewModel>>(await _context.Movies.Include(a => a.Actors)
                 .Skip(pageIndex * pageSize)
-                .Take(pageSize).Select(x=> new MovieListViewModel
-                {
-                    Id = x.Id,
-                    Title = x.Title,
-                    Actors = x.Actors.Select(y => new ActorViewModel
-                    {
-                        Id = y.Id,
-                        Name = y.Name,
-                        DateOfBirth = y.DateOfBirth
+                .Take(pageSize)
+                .ToListAsync());
 
-                    }).ToList(),
-                    Language = x.Language,
-                    ReleaseDate = x.ReleaseDate,
-                    CoverImage = x.CoverImage,
-
-                })
-                .ToListAsync();
                 response.Status = true;
                 response.Message = "Success";
                 response.Data = new {Movies = movieList, Count = movieCount};
@@ -66,34 +57,20 @@ namespace MovieAPI.Controllers
             BaseResponseModel response = new BaseResponseModel();
             try
             {
-                var movie = await _context.Movies.Include(a => a.Actors).Where(m => m.Id == id)
-                    .Select(x => new MovieDetailsViewModel
-                    {
-                        Id = x.Id,
-                        Title = x.Title,
-                        Description = x.Description,
-                        Actors = x.Actors.Select(y => new ActorViewModel
-                        {
-                            Id = y.Id,
-                            Name = y.Name,
-                            DateOfBirth = y.DateOfBirth,
-                        }).ToList(),
-                        Language = x.Language,
-                        ReleaseDate = x.ReleaseDate,
-                        CoverImage = x.CoverImage
-                        
-
-                    })
-                    .FirstOrDefaultAsync();
+                var movie = await _context.Movies.Include(a => a.Actors).FirstOrDefaultAsync(m => m.Id == id);
                 if (movie is null)
                 {
                     response.Status = false;
                     response.Message = "No Movie found";
+                    return BadRequest(response);
 
                 }
+
+                var movieData = _mapper.Map<MovieDetailsViewModel>(movie);
+
                 response.Status = true;
                 response.Message = "Success";
-                response.Data = movie;
+                response.Data = movieData;
                 return Ok(response);
             }
             catch (Exception)
@@ -121,18 +98,14 @@ namespace MovieAPI.Controllers
                         response.Message = "Invalid Actors assigned";
                         return BadRequest(response);
                     }
-                    var postedModel = new Movie()
-                    {
-                        Title = model.Title,
-                        Language = model.Language,
-                        ReleaseDate = model.ReleaseDate,
-                        CoverImage = model.CoverImage,
-                        Description = model.Description,
-                        Actors = actors,
-
-                    };
+                    var postedModel = _mapper.Map<Movie>(model);
+                    postedModel.Actors = actors;
                     await _context.Movies.AddAsync(postedModel);
                    await _context.SaveChangesAsync();
+
+                    var responseData = _mapper.Map<MovieDetailsViewModel>(postedModel);
+                   
+                    
                     response.Status = true;
                     response.Message = "Movie created successfully";
                     response.Data = postedModel;

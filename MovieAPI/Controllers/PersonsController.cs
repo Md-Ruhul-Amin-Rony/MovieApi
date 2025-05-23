@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MovieAPI.Data;
@@ -12,9 +13,14 @@ namespace MovieAPI.Controllers
     public class PersonsController : ControllerBase
     {
         private readonly MovieDbContext _context;
-        public PersonsController(MovieDbContext  context)
+
+        private readonly IMapper _mapper;
+
+
+        public PersonsController(MovieDbContext  context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
                 
         }
         [HttpGet]
@@ -25,13 +31,8 @@ namespace MovieAPI.Controllers
             try
             {
                 var actorCount = await _context.Persons.CountAsync();
-                var actorList = await _context.Persons.Skip(pageIndex * pageSize).Take(pageSize)
-                    .Select(x => new ActorViewModel
-                    {
-                        Id = x.Id,
-                        Name = x.Name,
-                        DateOfBirth = x.DateOfBirth
-                    }).ToListAsync();
+                var actorList = _mapper.Map<List<ActorsViewModel>> (await _context.Persons.Skip(pageIndex * pageSize).Take(pageSize)
+                    .ToListAsync());
                 response.Status = true;
                 response.Message = "Success";
                 response.Data = new { Person =  actorList, Count = actorCount };
@@ -88,38 +89,78 @@ namespace MovieAPI.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateActor(ActorsViewModel person)
         {
-            // Check if a person with the same ID already exists
-            bool exists = await _context.Persons.AnyAsync(x => x.Id == person.Id);
-
-            if (exists)
+            BaseResponseModel response = new BaseResponseModel();
+            try
             {
-                return BadRequest(new
+                if (ModelState.IsValid)
                 {
-                    Status = false,
-                    Message = "Actor already exists."
-                });
+                    var postedModel = new Person()
+                    {
+                        Name = person.Name,
+                        DateOfBirth = person.DateOfBirth
+                    };
+                    await _context.Persons.AddAsync(postedModel);
+                   await _context.SaveChangesAsync();
+                    person.Id = postedModel.Id;
+                    response.Status = true;
+                    response.Message = "Created Successfully";
+                    response.Data = person;
+
+                    return Ok(response);
+
+                }
+                else
+                {
+                    response.Status = false;
+                    response.Message = "Validation failed";
+                    response.Data = ModelState;
+                    return BadRequest(response);
+                }
+
             }
-            var movies = await _context.Movies.Where(m => person.MoviesId.Contains(m.Id)).ToListAsync();
-            
-            var actors = new Person
+            catch (Exception ex)
             {
-                Id = person.Id,
-                Name = person.Name,
-                DateOfBirth = person.DateOfBirth,
-                Movies = movies
 
-            };
+                response.Status= false;
+                response.Message = "Something went wrong";
+                return BadRequest(response);
+            }
 
-            // Add new actor
-            await _context.Persons.AddAsync(actors);
-            await _context.SaveChangesAsync();
+            //// Check if a person with the same ID already exists
+            //bool exists = await _context.Persons.AnyAsync(x => x.Id == person.Id);
 
-            return Ok(new
-            {
-                Status = true,
-                Message = "Actor created successfully.",
-                Data = person
-            });
+            //if (exists)
+            //{
+            //    return BadRequest(new
+            //    {
+            //        Status = false,
+            //        Message = "Actor already exists."
+            //    });
+            //}
+            //var movies = await _context.Movies.Where(m => person.MoviesId.Contains(m.Id)).ToListAsync();
+
+            //var actors = new Person
+            //{
+            //    Id = person.Id,
+            //    Name = person.Name,
+            //    DateOfBirth = person.DateOfBirth,
+            //    Movies = movies
+
+            //};
+
+            //// Add new actor
+            //await _context.Persons.AddAsync(actors);
+            //await _context.SaveChangesAsync();
+
+            //return Ok(new
+            //{
+            //    Status = true,
+            //    Message = "Actor created successfully.",
+            //    Data = person
+            //});
+
+
+
         }
 
     }
